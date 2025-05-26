@@ -1,0 +1,5 @@
+remix = input().strip()
+replaced = remix.replace("WUB", " ")
+words = replaced.split()
+original_song = " ".join(words)
+print(original_song)
