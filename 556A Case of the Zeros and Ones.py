@@ -1,0 +1,6 @@
+n = int(input())
+s = input()
+zeros = s.count('0')
+ones = s.count('1')
+min_remaining_length = n - 2 * min(zeros, ones)
+print(min_remaining_length)
