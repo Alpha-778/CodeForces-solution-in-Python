@@ -1,0 +1,8 @@
+n=int(input())
+a=list(map(int,input().split()))
+b=list(map(int,input().split()))
+c=list(map(int,input().split()))
+first_missing = sum(a) - sum(b)
+second_missing = sum(b) - sum(c)
+print(first_missing)
+print(second_missing)

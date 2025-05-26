@@ -1,0 +1,5 @@
+K = int(input())
+ranks = list(map(int, input().split()))
+max_rank = max(ranks)
+min_declines = max(0, max_rank - 25)
+print(min_declines)
